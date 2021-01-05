@@ -17,3 +17,15 @@ Front Camera | 16 MP, f/2.5, 25mm (wide), 1/3.06" 1.0µm
 Release Date |  2020, September 30
 
 Thanks to mauronofrio for the script..
+
+To compile:
+
+extract kernel tar.gz 
+
+build/envsetup.sh
+
+export ALLOW_MISSING_DEPENDENCIES=true
+
+lunch 
+
+make  recoveryimage
