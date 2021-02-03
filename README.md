@@ -18,14 +18,27 @@ Release Date |  2020, September 30
 
 Thanks to mauronofrio for the script..
 
-To compile:
+## Working :
 
-extract kernel tar.gz 
+- ADB
 
-build/envsetup.sh
+- Decryption userdata with eu roms
 
-export ALLOW_MISSING_DEPENDENCIES=true
+- Screen brightness settings
 
-lunch 
+- Correct screenshot color
 
-make  recoveryimage
+- MTP
+
+## To compile
+
+- build/envsetup.sh
+
+- export ALLOW_MISSING_DEPENDENCIES=true
+
+- lunch 
+
+- make -jX recoveryimage
+
+
+
