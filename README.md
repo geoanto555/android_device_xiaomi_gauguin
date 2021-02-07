@@ -32,6 +32,8 @@ Thanks to mauronofrio for the script..
 
 - Sideload
 
+- vibration
+
 ## To compile
 
 - build/envsetup.sh
@@ -41,6 +43,8 @@ Thanks to mauronofrio for the script..
 - lunch 
 
 - make -jX recoveryimage
+
+thanks to @ChariPower for information and testing
 
 
 
