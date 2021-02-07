@@ -30,6 +30,8 @@ Thanks to mauronofrio for the script..
 
 - MTP
 
+- Sideload
+
 ## To compile
 
 - build/envsetup.sh
