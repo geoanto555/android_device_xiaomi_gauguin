@@ -17,7 +17,7 @@ odm		  	/odm		    ext4		display="Odm";logical
 /recovery      emmc    /dev/block/bootdevice/by-name/recovery                    flags=backup=1
 /firmware      vfat    /dev/block/bootdevice/by-name/modem                       flags=display="Firmware"
 /cust          ext4    /dev/block/bootdevice/by-name/cust                        flags=display="Cust";backup=1
-/cust_image    emmc    /dev/block/bootdevice/by-name/cust                        flags=display="Cust";flashimg=1
+/cust_image    emmc    /dev/block/bootdevice/by-name/cust                        flags=display="Cust Image";flashimg=1
 /misc          emmc    /dev/block/bootdevice/by-name/misc                        flags=backup=1
 /modem         emmc    /dev/block/bootdevice/by-name/modem                       flags=backup=1;display="Modem"
 /bluetooth     emmc    /dev/block/bootdevice/by-name/bluetooth                   flags=backup=1;subpartitionof=/modem
