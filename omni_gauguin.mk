@@ -15,21 +15,20 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := gauguin
 DEVICE_PATH := device/xiaomi/gauguin
-
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+PRODUCT_RELEASE_NAME := Mi10t Lite
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+PRODUCT_PACKAGES += fastbootd
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
-
-#PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gauguin
 PRODUCT_NAME := omni_gauguin
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi10t lite
+PRODUCT_MODEL := Mi10t Lite
 PRODUCT_MANUFACTURER := Xiaomi
 
 # HACK: Set vendor patch level
