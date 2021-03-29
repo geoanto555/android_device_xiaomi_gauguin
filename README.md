@@ -34,6 +34,8 @@ Thanks to mauronofrio for the script..
 
 - vibration
 
+- FastbootD
+
 ## To compile
 
 - build/envsetup.sh
